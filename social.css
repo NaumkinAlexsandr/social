@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(http://storge.pic2.me/cm/2560x1440/905/5948ee1657be8.jpg);
+}
+
+/* ----First---- */
+
+.conteiner_one {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first .icon {
+  width: 60px;
+  height: 60px;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  margin: 0 15px;
+}
+
+.first a {
+  padding: 15px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.first .facebook:hover {
+  border-color: rgb(45, 122, 223);
+  box-shadow: 0px 0px 30px rgb(45, 122, 223);
+  color: rgb(62, 62, 247);
+}
+
+.first .instagram:hover {
+  border-color: rgb(233, 5, 81);
+  box-shadow: 0px 0px 30px rgb(233, 5, 81);
+  color: rgb(236, 56, 116);
+}
+
+.first .telegram:hover {
+  border-color: rgb(45, 178, 223);
+  box-shadow: 0px 0px 30px rgb(45, 178, 223);
+  color: skyblue;
+}
+
+.first .google:hover {
+  border-color: red;
+  box-shadow: 0px 0px 30px red;
+  color: rgb(248, 83, 83);
+}
+
+.first .git:hover {
+  border-color: silver;
+  box-shadow: 0px 0px 30px silver;
+  color: silver;
+}
+
+/* ----Second----*/
+
+.conteiner_two {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#facebook,
+#instagram,
+#telegram,
+#google,
+#github {
+  margin: 0px 20px;
+  width: 53px;
+  height: 53px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.conteiner_two a {
+  padding: 25px 10px;
+  display: flex;
+  color: gray;
+  border-radius: 50px;
+}
+
+#facebook {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-size: 100%;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/20/20673.png);
+}
+
+#facebook:hover {
+  box-shadow: 0px 0px 25px rgba(2, 5, 209, 0.6);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/5968/5968764.png);
+}
+
+#facebook:active,
+#facebook:visited {
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/4406/4406234.png);
+}
+
+#instagram {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-size: 100%;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/123/123739.png);
+}
+
+#instagram:hover {
+  box-shadow: 0px 0px 25px rgba(190, 26, 122, 0.6);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/1409/1409946.png);
+}
+
+#instagram:active,
+#instagram:visited {
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/1362/1362857.png);
+}
+
+#telegram {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-size: 100%;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/2111/2111710.png);
+}
+
+#telegram:hover {
+  box-shadow: 0px 0px 25px rgba(14, 159, 243, 0.6);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/2111/2111646.png);
+}
+
+#telegram:active,
+#telegram:visited {
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/356/356079.png);
+}
+
+#google {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-size: 100%;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/299/299409.png);
+}
+
+#google:hover {
+  box-shadow: 0px 0px 25px rgba(33, 243, 14, 0.6);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/270/270799.png);
+}
+
+#google:active,
+#google:visited {
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/281/281747.png);
+}
+
+#github {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-size: 100%;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/2111/2111425.png);
+}
+
+#github:hover {
+  box-shadow: 0px 0px 25px rgba(48, 0, 160, 0.6);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/733/733553.png);
+}
+
+#github:active,
+#github:visited {
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/1051/1051377.png);
+}
+
+/*@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#facebook,
+#instagram,
+#telegram,
+#google,
+#github {
+  animation-name: spin;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
+  animation-delay: 3s;
+  animation-timing-function: ease-in-out;
+}*/
