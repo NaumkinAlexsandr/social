@@ -24,7 +24,6 @@ section {
 .first .icon {
   width: 60px;
   height: 60px;
-  padding-top: 5px;
   border-radius: 50%;
   border: 5px solid #fff;
   display: flex;
@@ -43,12 +42,14 @@ section {
 }
 
 .first .facebook:hover {
+  border-radius: 50%;
   border-color: rgb(45, 122, 223);
   box-shadow: 0px 0px 30px rgb(45, 122, 223);
   color: rgb(62, 62, 247);
 }
 
 .first .instagram:hover {
+  border-radius: 50%;
   border-color: rgb(233, 5, 81);
   box-shadow: 0px 0px 30px rgb(233, 5, 81);
   color: rgb(236, 56, 116);
@@ -104,86 +105,86 @@ section {
 #facebook {
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
   background-size: 100%;
-  background-image: url(https://cdn-icons-png.flaticon.com/128/20/20673.png);
+  background-image: url(./img/facebook-black.png);
 }
 
 #facebook:hover {
   box-shadow: 0px 0px 25px rgba(2, 5, 209, 0.6);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/5968/5968764.png);
+  background-image: url(./img/facebook.png);
 }
 
 #facebook:active,
 #facebook:visited {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/4406/4406234.png);
+  background-image: url(./img/facebook-white.png);
 }
 
 #instagram {
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
   background-size: 100%;
-  background-image: url(https://cdn-icons-png.flaticon.com/128/123/123739.png);
+  background-image: url(./img/instagram-black.png);
 }
 
 #instagram:hover {
   box-shadow: 0px 0px 25px rgba(190, 26, 122, 0.6);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/1409/1409946.png);
+  background-image: url(./img/instagram.png);
 }
 
 #instagram:active,
 #instagram:visited {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/1362/1362857.png);
+  background-image: url(./img/instagram-white.png);
 }
 
 #telegram {
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
   background-size: 100%;
-  background-image: url(https://cdn-icons-png.flaticon.com/128/2111/2111710.png);
+  background-image: url(./img/telegram-black.png);
 }
 
 #telegram:hover {
   box-shadow: 0px 0px 25px rgba(14, 159, 243, 0.6);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/2111/2111646.png);
+  background-image: url(./img/telegram.png);
 }
 
 #telegram:active,
 #telegram:visited {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/356/356079.png);
+  background-image: url(./img/telegram-white.png);
 }
 
 #google {
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
   background-size: 100%;
-  background-image: url(https://cdn-icons-png.flaticon.com/128/299/299409.png);
+  background-image: url(./img/google-black.png);
 }
 
 #google:hover {
   box-shadow: 0px 0px 25px rgba(33, 243, 14, 0.6);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/270/270799.png);
+  background-image: url(./img/google.png);
 }
 
 #google:active,
 #google:visited {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/281/281747.png);
+  background-image: url(./img/google-white.png);
 }
 
 #github {
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
   background-size: 100%;
-  background-image: url(https://cdn-icons-png.flaticon.com/128/2111/2111425.png);
+  background-image: url(./img/github-black.png);
 }
 
 #github:hover {
   box-shadow: 0px 0px 25px rgba(48, 0, 160, 0.6);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/733/733553.png);
+  background-image: url(./img/github.png);
 }
 
 #github:active,
 #github:visited {
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  background-image: url(https://cdn-icons-png.flaticon.com/128/1051/1051377.png);
+  background-image: url(./img/github-white.png);
 }
 
 /*@keyframes spin {
